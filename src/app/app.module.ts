@@ -62,6 +62,8 @@ import { LoginComponent } from './components/login/login.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
