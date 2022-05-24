@@ -1,8 +1,22 @@
 .container {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 table {
-    width: 100%;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+button {
+  width: 10%;
+  left: 90%;
+  margin-top: 1%;
 }
