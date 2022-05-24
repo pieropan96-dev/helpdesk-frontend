@@ -1,1 +1,52 @@
-<p>tecnico-create works!</p>
+<div class="container mat-elevation-z8">
+  <form action="" class="form">
+    <h1 class="full-width">Cadastrar Técnico</h1>
+    <img
+      class="full-width"
+      src="assets/img/tecnico-create.svg"
+      alt="Help Desk - Dicas de um DEV"
+    />
+
+    <section class="section">
+      <mat-checkbox class="margin">Admin</mat-checkbox>
+      <mat-checkbox class="margin">Cliente</mat-checkbox>
+      <mat-checkbox class="margin">Técnico</mat-checkbox>
+    </section>
+
+    <mat-form-field appearance="legacy" class="full-width">
+      <mat-label>Nome</mat-label>
+      <input matInput placeholder="Ex: fulano de tal" />
+      <mat-icon matSuffix>people</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="legacy" class="full-width">
+      <mat-label>CPF</mat-label>
+      <input matInput placeholder="Ex: 000.111.222.00" />
+      <mat-icon matSuffix>pin</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="legacy" class="full-width">
+      <mat-label>E-mail</mat-label>
+      <input matInput placeholder="Ex: fulano@mail.com" />
+      <mat-icon matSuffix>email</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="legacy" class="full-width">
+      <mat-label>Senha</mat-label>
+      <input type="password" matInput placeholder="Ex: 1234" />
+      <mat-icon matSuffix>password</mat-icon>
+    </mat-form-field>
+
+    <button
+      class="full-width mat-elevation-z8"
+      mat-raised-button
+      color="primary"
+    >
+      Cadastrar
+    </button>
+    <button class="full-width mat-elevation-z8" mat-raised-button color="warn">
+      Cancelar
+    </button>
+  </form>
+  <p class="full-width">by Matheus Pieropan</p>
+</div>
