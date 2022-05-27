@@ -20,3 +20,11 @@ button {
   left: 90%;
   margin-top: 1%;
 }
+
+.edit {
+  color: rgb(0, 153, 255);
+}
+
+.delete {
+  color: red;
+}
